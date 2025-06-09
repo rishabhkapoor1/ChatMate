@@ -12,8 +12,7 @@ ChatMate is a fun and interactive chatbot web application that simulates your be
 - No frameworks – pure frontend with fetch API
 - Simulates a helpful, humorous software engineer best friend
 
-## 🚀 Live Demo
-[Link to GitHub Pages (if deployed)](https://your-username.github.io/chatmate)
+![ChatMate Screenshot](https://drive.google.com/file/d/1x_vuqPGAMsX6s0Blr_V24ATMHKZHXCsR/view?usp=sharing)
 
 ## 🛠️ Tech Stack
 - HTML5

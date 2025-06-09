@@ -1,21 +1,27 @@
-# ChatMate
-🤖 ChatMate – A friendly AI chatbot web app using Gemini API, built with HTML, CSS, and JavaScript.
-
 # 🤖 ChatMate – Your Best Friend Chatbot
 
-ChatMate is a fun and interactive chatbot web application that simulates your best friend named **Sam**. Built with HTML, CSS, and JavaScript, it uses Google's **Gemini API** to generate intelligent and friendly replies.
+ChatMate is a fun and interactive AI chatbot web app that simulates your best friend named **Sam** 🧑‍💻. Built with HTML, CSS, and JavaScript, it uses Google’s **Gemini 2.0 Flash API** to generate helpful, friendly, and humorous responses.
+
+![ChatMate Screenshot](https://drive.google.com/uc?export=view&id=1x_vuqPGAMsX6s0Blr_V24ATMHKZHXCsR)
+
+---
 
 ## 🌟 Features
-- Friendly AI chatbot with personality and emojis
-- Powered by Gemini 2.0 Flash model
-- Responsive, clean UI
-- No frameworks – pure frontend with fetch API
-- Simulates a helpful, humorous software engineer best friend
 
-![ChatMate Screenshot](https://drive.google.com/file/d/1x_vuqPGAMsX6s0Blr_V24ATMHKZHXCsR/view?usp=sharing)
+- 🧠 Friendly AI chatbot with a quirky personality
+- 💬 Powered by Gemini Flash model (via fetch API)
+- 🎨 Clean and responsive UI (Flexbox-based layout)
+- ⚙️ No frameworks – just HTML, CSS, and JavaScript
+- 👨‍💻 Simulates a humorous software engineer best friend
+- 🔒 API key hidden from front-end logic
+
+---
 
 ## 🛠️ Tech Stack
-- HTML5
-- CSS3 (Flexbox for layout)
-- JavaScript (ES6)
-- Gemini API (via fetch)
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6)
+- **AI Engine:** Google Gemini 2.0 Flash
+- **Layout:** Flexbox
+- **Markdown/Code Rendering:** None (kept simple)
+
+---

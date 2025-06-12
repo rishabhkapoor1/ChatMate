@@ -466,7 +466,7 @@
         }
         
         function formatText(text) {
-            // Converts markdown-like newlines to <p> tags for better formatting
+           
             return text.split('\n').filter(p => p.trim() !== '').map(p => `<p>${p}</p>`).join('');
         }
 

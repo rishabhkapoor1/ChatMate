@@ -367,7 +367,7 @@
         // ===================================================================
         // IMPORTANT: PASTE YOUR GEMINI API KEY HERE
         // ===================================================================
-        const GEMINI_API_KEY = 'API';
+        const GEMINI_API_KEY = 'AIzaSyDph1LNGFweJgiFm3659k8uojwrJCukYNs';
         // ===================================================================
 
         // App State
@@ -384,7 +384,15 @@
                 return;
             }
             
-            
+            // Check if the developer has added the API key
+            // if (!GEMINI_API_KEY || GEMINI_API_KEY === 'AIzaSyDph1LNGFweJgiFm3659k8uojwrJCukYNs') {
+            //     setupContainer.classList.add('hidden');
+            //     appContainer.classList.remove('hidden');
+            //     displayMessage('ai', 'Uh oh! It looks like my brain is not connected. 🧠 The developer needs to add an API key to the code for me to work!');
+            //     userInput.disabled = true;
+            //     sendBtn.disabled = true;
+            //     return;
+            // }
             
             errorMessage.classList.add('hidden');
             setupContainer.classList.add('hidden');
@@ -466,7 +474,7 @@
         }
         
         function formatText(text) {
-           
+            // Converts markdown-like newlines to <p> tags for better formatting
             return text.split('\n').filter(p => p.trim() !== '').map(p => `<p>${p}</p>`).join('');
         }
 
